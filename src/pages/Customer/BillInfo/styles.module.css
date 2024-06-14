@@ -1,0 +1,12 @@
+.customer_bill {
+  border: 1px solid #343333;
+  padding: 30px 25px !important;
+}
+.customer_bill_layout {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: 700;
+}

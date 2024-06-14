@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-131921: #131921;
+  --color-3b4149: #3b4149;
+  --color-febd69: #febd69;
+  --color-232f3e: #232f3e;
+  --color-bf4800: #bf4800;
+  --color-f5f5f7: #f5f5f7;
+  --color-ededed: #ededed;
+  --color-777777: #777777;
+  --color-1c1c1b: #1c1c1b;
+  --color-1435c3: #1435c3;
+}
+
+.card-wrapper {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+
+.section-heading {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-f5f5f7);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.button {
+  background-color: var(--color-232f3e);
+  color: white;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+
+.button:hover {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+
+.confirm-btn {
+  background-color: #2c7a0b !important;
+}
+.confirm-btn:hover {
+  opacity: 0.8;
+  transform: scale(0.9);
+  color: #000;
+
+}
+
+.cancel-btn {
+  background-color: #af0a0a !important;
+}
+.cancel-btn:hover {
+  opacity: 0.8;
+  transform: scale(0.9);
+  color: #000;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.gap-30 {
+  gap: 30px;
+}
+
+td, th {
+  align-content: center;
+}

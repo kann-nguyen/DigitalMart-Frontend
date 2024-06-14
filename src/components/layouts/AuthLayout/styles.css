@@ -1,0 +1,22 @@
+
+
+.header-upper {
+    background-color: var(--color-131921);
+  }
+  
+
+  
+  .header-upper .header-upper-links img {
+    width: 35px;
+    height: 35px;
+  }
+  .image {
+    width: 70%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.container {
+    background-color: white;
+}

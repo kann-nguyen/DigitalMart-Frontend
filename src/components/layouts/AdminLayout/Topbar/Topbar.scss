@@ -1,0 +1,53 @@
+.topbar {
+    background-color: #212529;
+    width: 100vw;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed; /* Fixed at the top */
+    top: 0; /* Positioned at the very top */
+    left: 0; /* Aligned to the left edge */
+    z-index: 1000; /* Stays above other elements */
+}
+
+.brand {
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.topbar-list-profile {
+    color: white;
+}
+
+.topbar-list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 20px;
+    align-items: center;
+    gap: 20px;
+
+    &-profile {
+        display: flex;
+        gap: 10px;
+    }
+
+    &-bell {
+        cursor: pointer;
+        &:hover {
+            color: #ffd333;
+        }
+    }
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Add this class for your main content */
+.main-content {
+    margin-top: 80px; /* Add top margin to prevent content from being hidden */
+}

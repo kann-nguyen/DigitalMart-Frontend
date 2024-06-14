@@ -1,0 +1,52 @@
+.filter {
+    padding: 0.5rem;
+    border-radius: 8px;
+
+    &-items {
+        border-bottom: 1px solid #ccc;
+        margin-top: 5px;
+
+        &-item {
+            display: flex;
+            gap: 5px;
+
+            &-text {
+                text-align: center;
+                width: 150px;
+                padding: 5px 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                color: #696969;
+                cursor: pointer;
+            }
+
+            .filter-active {
+                color: #000;
+                border: 1px solid blue;
+            }
+        }
+    }
+}
+
+.result-list {
+    flex-grow: 1;
+    max-width: 100%;
+    display: flex;
+    height: fit-content;
+    gap: 10px;
+    flex-wrap: wrap;
+    // justify-content: space-evenly;
+}
+
+.result-pagination {
+    margin-top: 20px;
+    // text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.paginate-btn {
+    text-decoration: underline;
+    cursor: pointer;
+}

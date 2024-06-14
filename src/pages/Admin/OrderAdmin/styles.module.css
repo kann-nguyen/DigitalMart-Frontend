@@ -1,0 +1,17 @@
+.action {
+    margin-left: 20px;
+}
+.action:hover {
+  transform: scale(1.1);
+  color: #0707b2 !important;
+}
+.action:active {
+  transform: scale(1);
+  color: black !important;
+}
+
+.order_admin {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}

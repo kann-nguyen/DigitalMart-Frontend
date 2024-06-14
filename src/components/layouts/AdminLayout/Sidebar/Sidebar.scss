@@ -1,0 +1,58 @@
+.sidebar {
+    position: fixed;
+    top: 80px;
+    height: calc(100vh - 80px); // Adjust to fit within the viewport height
+    width: 250px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+
+    .menu {
+        flex-grow: 1;
+        margin-top: 10px;
+
+        &-item {
+            height: 64px;
+            font-size: 20px;
+            margin: 0 10px;
+            display: flex;
+            padding: 10px 20px;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #828599;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .bottom-menu {
+        border-top: 1px solid #828599; // Line at the top of bottom menu
+        padding-top: 10px;
+
+        .menu-item {
+            height: 64px;
+            font-size: 20px;
+            margin: 0 10px;
+            display: flex;
+            padding: 10px 20px;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #828599;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .active {
+        background-color: #828599;
+        border-radius: 5px;
+    }
+}
